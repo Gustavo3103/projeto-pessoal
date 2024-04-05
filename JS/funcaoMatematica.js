@@ -3,7 +3,7 @@
 
 function funcao() {
 
-    if (isNaN(i1.value) || isNaN(i2.value)) { soma.innerHTML = "Um dos valores colocados não é um número." }
+    if (isNaN(i1.value) || isNaN(i2.value)) { erro.innerHTML  = "Um dos valores colocados não é um número." }
     else {
         soma.innerHTML = i1.value + " + " + i2.value + " = " + (Number(i1.value) + Number(i2.value))
         subtracao.innerHTML = i1.value + " - " + i2.value + " = " + (Number(i1.value) - Number(i2.value))

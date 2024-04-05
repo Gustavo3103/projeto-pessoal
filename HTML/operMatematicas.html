@@ -7,29 +7,40 @@
     <title>Operações matemáticas</title>
     <link rel="stylesheet" href="../CSS/opMatematica.css">
     <script src="../JS/funcaoMatematica.js"></script>
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
 
 </head>
 
 
 
-<body>
+<body id="body">
 
-    <h1>~ Operações matemáticas ~</h1>
+    <h1 display: inline-block;>~ Operações matemáticas ~</h1>
 
-    <p>Digite um número:</p>
+    <p><u>Digite um número:</u></p>
     <input id="i1" placeholder="Nº 1"><br><br>
 
-    <p>Digite outro número:</p>
+    <p><u>Digite outro número:</u></p>
     <input id="i2" placeholder="Nº 2">
     <br><br>
 
-    <button onclick="funcao()">Clique</button>
 
-    <h3 id="soma"></h3>
-    <h3 id="subtracao"></h3>
-    <h3 id="multiplicacao"></h3>
-    <h3 id="divisao"></h3>
+
+    <button onclick="funcao()">Clique</button>
+    
+    <br><br>
+
+
+    <div id="erro">
+
+        <h3 id="soma"></h3>
+        <h3 id="subtracao"></h3>
+        <h3 id="multiplicacao"></h3>
+        <h3 id="divisao"></h3>
+
+    </div>
 
 
 </body>
